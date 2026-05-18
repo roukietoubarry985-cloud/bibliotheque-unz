@@ -1,7 +1,6 @@
 package com.UNZ.Biblioteque;
 
-import com.UNZ.Biblioteque.models.Categorie;
-import com.UNZ.Biblioteque.models.Ouvrage;
+import com.UNZ.Biblioteque.models.*;
 import com.UNZ.Biblioteque.repositories.OuvrageRepository;
 import com.UNZ.Biblioteque.services.OuvrageService;
 import org.junit.jupiter.api.BeforeEach;
@@ -39,7 +38,7 @@ public class OuvrageServiceTest {
         ouvrage1.setId(1L);
         ouvrage1.setTitre("Java pour debutants");
         ouvrage1.setAuteur("James Gosling");
-        ouvrage1.setIsbn("978-1234567890");
+        ouvrage1.setIsbn("978-001");
         ouvrage1.setNombreExemplaires(5);
         ouvrage1.setExemplairesDisponibles(3);
         ouvrage1.setCategorie(categorie);
@@ -48,7 +47,7 @@ public class OuvrageServiceTest {
         ouvrage2.setId(2L);
         ouvrage2.setTitre("Spring Boot");
         ouvrage2.setAuteur("Craig Walls");
-        ouvrage2.setIsbn("978-0987654321");
+        ouvrage2.setIsbn("978-002");
         ouvrage2.setNombreExemplaires(3);
         ouvrage2.setExemplairesDisponibles(0);
         ouvrage2.setCategorie(categorie);

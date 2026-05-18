@@ -40,6 +40,7 @@ public class EmpruntServiceTest {
         etudiant.setNom("Barry");
         etudiant.setPrenom("Roukietou");
         etudiant.setEmail("roukietou@unz.bf");
+        etudiant.setMotDePasse("password123");
         etudiant.setMatricule("ETU001");
         etudiant.setFiliere("Informatique");
         etudiant.setNiveau("L3");
@@ -50,7 +51,7 @@ public class EmpruntServiceTest {
         ouvrage.setId(1L);
         ouvrage.setTitre("Java pour debutants");
         ouvrage.setAuteur("James Gosling");
-        ouvrage.setIsbn("978-1234567890");
+        ouvrage.setIsbn("978-001");
         ouvrage.setNombreExemplaires(5);
         ouvrage.setExemplairesDisponibles(3);
     }
